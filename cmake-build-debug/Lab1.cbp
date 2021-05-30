@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/whatislove118/Desktop/SPO/Lab1/main.c">
+		<Unit filename="/Users/whatislove118/Desktop/SPO/Lab1/client/main.c">
 			<Option target="Lab1"/>
 		</Unit>
 		<Unit filename="/Users/whatislove118/Desktop/SPO/Lab1/CMakeLists.txt">

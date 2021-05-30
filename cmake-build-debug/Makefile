@@ -142,32 +142,32 @@ Lab1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/build
 .PHONY : Lab1/fast
 
-main.o: main.c.o
+client/main.o: client/main.c.o
 
-.PHONY : main.o
+.PHONY : client/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/main.c.o
-.PHONY : main.c.o
+client/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/client/main.c.o
+.PHONY : client/main.c.o
 
-main.i: main.c.i
+client/main.i: client/main.c.i
 
-.PHONY : main.i
+.PHONY : client/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/main.c.i
-.PHONY : main.c.i
+client/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/client/main.c.i
+.PHONY : client/main.c.i
 
-main.s: main.c.s
+client/main.s: client/main.c.s
 
-.PHONY : main.s
+.PHONY : client/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/main.c.s
-.PHONY : main.c.s
+client/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/client/main.c.s
+.PHONY : client/main.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... client/main.o"
+	@echo "... client/main.i"
+	@echo "... client/main.s"
 .PHONY : help
 
 
